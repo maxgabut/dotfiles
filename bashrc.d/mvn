@@ -1,0 +1,2 @@
+alias mci='mvn clean install'
+alias mci-T='mvn clean install -DskipTests -Dmaven.test.skip=true'
