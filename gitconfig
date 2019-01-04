@@ -1,0 +1,22 @@
+[core]
+  editor = vim
+
+[color]
+  ui = true
+
+[alias]
+  c = commit --verbose
+  ca = commit --amend --verbose
+  dc = diff --cached
+  g = ! git gf -20 # '!' allows to re-use gf alias from here
+  gf = "log --graph --all --abbrev-commit  --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s - %Cgreen%cr %Creset- %C(blue)%an%Creset'"
+  ls = ls-tree --full-name --name-only -r HEAD
+  ra = rebase --abort
+  rc = rebase --continue
+  ri = rebase --interactive
+  s = status --short
+  d = diff
+  aa = add -A
+  cm = commit -m
+  mff = merge --ff-only
+  b = branch
