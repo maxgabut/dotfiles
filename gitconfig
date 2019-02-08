@@ -5,6 +5,7 @@
   ui = true
 
 [alias]
+  co = checkout
   c = commit --verbose
   ca = commit --amend --verbose
   dc = diff --cached
