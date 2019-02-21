@@ -14,7 +14,7 @@
   ls = ls-tree --full-name --name-only -r HEAD
   ra = rebase --abort
   rc = rebase --continue
-  ri = rebase --interactive
+  ri = rebase --interactive --autosquash
   s = status --short
   d = diff
   aa = add -A
