@@ -4,6 +4,9 @@
 [color]
   ui = true
 
+[commit]
+  template = ~/.dotfiles/gitmessage
+
 [alias]
   co = checkout
   c = commit --verbose

@@ -1,5 +1,10 @@
 # Installation
 
+## Installation path
+
+Either clone the repository ar `~/.dotfiles`, or create a symlink to the repo
+at that path.
+
 ## Bash
 
 source `.dotfiles/bashrc` from `~/.bashrc`.
