@@ -24,3 +24,4 @@
   cm = commit -m
   mff = merge --ff-only
   b = branch
+  sub = submodule update --init --recursive
