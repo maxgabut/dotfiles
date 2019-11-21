@@ -26,3 +26,6 @@
   b = branch
   sub = submodule update --init --recursive
   f = fetch
+
+[rebase]
+  instructionFormat = (%<(12,trunc)%an) %s
