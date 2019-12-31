@@ -7,6 +7,9 @@
 [commit]
   template = ~/.dotfiles/gitmessage
 
+[merge]
+  tool = kdiff3
+
 [alias]
   co = checkout
   c = commit --verbose
