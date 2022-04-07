@@ -2,7 +2,7 @@
 
 ## Installation path
 
-Either clone the repository ar `~/.dotfiles`, or create a symlink to the repo
+Either clone the repository at `~/.dotfiles`, or create a symlink to the repo
 at that path.
 
 ## Bash
