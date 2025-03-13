@@ -10,6 +10,9 @@
 [merge]
   tool = kdiff3
 
+[push]
+  autoSetupRemote = true
+
 [alias]
   co = checkout
   c = commit --verbose
